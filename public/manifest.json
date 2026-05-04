@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Mandarin Frequency Highlighter",
+  "name": "English Frequency Highlighter",
   "version": "0.1",
   "description": "Highlight frequent words and estimate coverage",
   "permissions": ["scripting", "activeTab"],

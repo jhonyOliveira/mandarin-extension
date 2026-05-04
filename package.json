@@ -1,5 +1,5 @@
 {
-  "name": "mandarin-highlighter",
+  "name": "english-highlighter",
   "version": "0.1.0",
   "description": "Chrome extension to highlight frequent words",
   "scripts": {

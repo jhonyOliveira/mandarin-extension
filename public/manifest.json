@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Mandarin Frequency Highlighter",
+  "version": "0.1",
+  "description": "Highlight frequent words and estimate coverage",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

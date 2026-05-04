@@ -35,9 +35,15 @@ async function main() {
     });
 
     if (replaced !== text) {
-      const span = document.createElement("span");
-      span.innerHTML = replaced;
-      node.replaceWith(span);
+      const wrapper = document.createElement("span");
+      wrapper.innerHTML = replaced;
+
+      const frag = document.createDocumentFragment();
+      while (wrapper.firstChild) {
+        frag.appendChild(wrapper.firstChild);
+      }
+
+      node.replaceWith(frag);
     }
   });
 

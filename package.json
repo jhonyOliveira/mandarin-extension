@@ -1,0 +1,9 @@
+{
+  "name": "mandarin-highlighter",
+  "version": "0.1.0",
+  "description": "Chrome extension to highlight frequent words",
+  "scripts": {
+    "start": "echo 'Load extension manually in Chrome'",
+    "build": "echo 'No build step yet'"
+  }
+}

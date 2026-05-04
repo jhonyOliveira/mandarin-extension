@@ -10,5 +10,11 @@
       "js": ["content.js"],
       "css": ["styles.css"]
     }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["words.json"],
+      "matches": ["<all_urls>"]
+    }
   ]
 }
